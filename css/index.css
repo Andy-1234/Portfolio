@@ -1,8 +1,36 @@
-.dropdown{}
+@font-face{
+    font-family: ;
+}
 
-button>
 
-.drop-con
+body{
+    color: black;
+}
+.dropdown{
+    background: black;
+    position: relative;
+    display: inline-block;
+
+}
+
+button{
+    background: black;
+    color: white;
+    font-family: ;
+}
+
+.drop-con{
+    visibility: hidden;
+    display: none;
+    position: fixed;
+    box-shadow: 0px 6px 18px 0px black;
+
+}
+.dropdown>button:hover {
+    display: inline-block;
+    visibility: visible;
+    
+}
 
 
 .dropdown:hover .drop-con{
