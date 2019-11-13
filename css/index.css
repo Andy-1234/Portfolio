@@ -5,8 +5,9 @@
 
 body{
     color: black;
+   
 }
-.dropdown{
+.drop{
     background: black;
     position: relative;
     display: inline-block;
@@ -18,6 +19,16 @@ button{
     color: white;
     font-family: ;
 }
+.btn{
+    background: darkgray;
+    color: black;
+    padding: 3px;
+
+}
+.btn:hover .drop-con{
+    visibility: visible;
+    
+}
 
 .drop-con{
     visibility: hidden;
@@ -26,13 +37,17 @@ button{
     box-shadow: 0px 6px 18px 0px black;
 
 }
-.dropdown>button:hover {
+.drop-con>a{
+    color: #f7931d;
+}
+.drop>button>.btn:hover {
     display: inline-block;
     visibility: visible;
     
 }
 
 
-.dropdown:hover .drop-con{
+.drop:hover .drop-con{
     visibility: visible;
+    display: block;
 }
