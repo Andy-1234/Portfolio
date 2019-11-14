@@ -83,15 +83,22 @@ body{
   .drop-con2 {
     display: none;
     position: fixed;
-    right: 0;
+    left: 0;
     top: 0%;
-    background-color: #f9f9f9;
+    width: 50%;
+    height: 100%;
+    background-color: black;
+    
 
     -webkit-box-shadow: 0px 8px 16px 0px black;
             box-shadow: 0px 8px 16px 0px black;
             z-index: 2;
             
  
+  }
+  .drop-con2>a{
+    font-size: ;
+    font-family: ;
   }
   .drop-con2>li>a:hover{
     text-shadow: 3px 2px 3px black;
@@ -104,7 +111,7 @@ body{
     display: block;
   }
   
-  .drop-con2 a:hover {background-color: #f1f1f1}
+  .drop-con2 a:hover {background-color: darkgray}
   
   .dropdown2:hover .drop-con2 {
     display: block;
