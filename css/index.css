@@ -120,3 +120,8 @@ body{
   .dropdown2:hover .btn2 {
     color:#f7931d ;
   }
+  .grid{
+    display: grid;
+    grid-row: repeat();
+    grid-column: repeat();
+  }
